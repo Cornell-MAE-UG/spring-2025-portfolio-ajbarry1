@@ -14,7 +14,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : Alexander Barry
 description              : Alexander Barry - Projects and CV 
 baseurl                  : "spring-2025-portfolio-ajbarry1" # Set this to "portfolio-<your-github-username>" 
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://cornell-mae-ug.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 
 # Theme and Style
 theme: jekyll-theme-minimal
