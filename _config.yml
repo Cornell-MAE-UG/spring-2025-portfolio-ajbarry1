@@ -8,11 +8,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Your Name
+title                    : Alexander Barry
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Your Name
-description              : Your Name - Projects and CV 
+name                     : Alexander Barry
+description              : Alexander Barry - Projects and CV 
 baseurl                  : "" # Set this to "portfolio-<your-github-username>" 
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 

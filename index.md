@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name>
+title: <Alexander Barry>
 ---
 
 ## About Me
