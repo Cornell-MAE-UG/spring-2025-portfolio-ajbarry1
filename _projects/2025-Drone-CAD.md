@@ -4,6 +4,7 @@ title: Drone Design
 description: Carbon fiber drone designed for CUAD project team
 technologies: [Onshape CAD, Autodesk Fusion (Manufacturing)]
 image: /assets/images/Drone_CAD.png
+image: /assets/images/Drone_CAD.png
 ---
 
 
