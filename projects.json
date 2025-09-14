@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Glider Ducted-Fan Drone",
+        "image": "images/ducted-fan-drone.jpg",
+        "description": "A custom-designed UAV combining the efficient glide of a fixed-wing aircraft with the vertical takeoff and landing (VTOL) capabilities of a quadcopter, powered by a single ducted fan.",
+        "skills": ["Aerodynamic Design", "CAD Modeling", "3D Printing", "Composite Fabrication", "System Integration"],
+        "outcome": "Successful design and prototype of a unique hybrid UAV platform, demonstrating innovative solutions to VTOL and forward-flight propulsion challenges.",
+        "link": "#",
+        "cadModel": "models/ducted_fan_drone.glb"
+    },
+    {
+        "title": "5\" Propeller Quadcopter",
+        "image": "images/quadcopter.jpg",
+        "description": "A fully custom-built FPV racing quadcopter. Designed and assembled from the frame up, featuring custom motor mounts, a meticulously wired power distribution board, and tuned flight controllers for optimal performance.",
+        "skills": ["Electronics Assembly", "Soldering", "PCB Design", "PID Tuning", "CAD for Custom Parts"],
+        "outcome": "A high-performance, reliable racing drone capable of precise acrobatic maneuvers, showcasing end-to-end hardware integration and troubleshooting skills.",
+        "link": "#",
+        "cadModel": "models/quadcopter.glb"
+    },
+    {
+        "title": "High-Performance Fan CAD Model",
+        "image": "images/fan-assembly.jpg",
+        "description": "A detailed and fully constrained parametric assembly model of a complex centrifugal fan, created to analyze assembly procedures and ensure manufacturability.",
+        "skills": ["Advanced CAD (SolidWorks)", "Geometric Dimensioning & Tolerancing (GD&T)", "Design for Manufacturability", "Parametric Modeling"],
+        "outcome": "A professional-grade model that demonstrates mastery of mechanical design software and best practices for creating production-ready technical documentation.",
+        "link": "#",
+        "cadModel": "models/fan_assembly.glb"
+    }
+]
