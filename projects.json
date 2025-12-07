@@ -25,5 +25,14 @@
         "outcome": "A professional-grade model that demonstrates mastery of mechanical design software and best practices for creating production-ready technical documentation.",
         "link": "#",
         "cadModel": "models/fan_assembly.glb"
+    },
+    {
+        "title": "Wrench Redesign",
+        "image": "images/fan-assembly.jpg",
+        "description": "Analysis and Redesign of Torque Wrench.",
+        "skills": ["CAD","ANSYS FEM"],
+        "outcome": "Details of the analysis of an improved torque wrench.",
+        "link": "#",
+        "cadModel": "models/fan_assembly.glb"
     }
 ]
