@@ -1,12 +1,11 @@
 ---
 layout: project
-title: Drone Design
-description: Carbon fiber drone designed for CUAD project team
-technologies: [Onshape CAD, Autodesk Fusion (Manufacturing)]
+title: Wrench Redesign
+description: Analysis and Redesign of Torque Wrench
+technologies: [CAD, ANSYS FEM]
 image: /assets/images/Drone_CAD.png
 ---
 
+As a final project for MAE 3270, Mechanics of Materials, I was tasked with analyzing a design for a torque wrench and designing an improved version. I used both hand calculations and ANSYS FEM simulations to perform the analysis. 
 
-After joining the Cornell Autonomous Drone project team (CUAD), my first project was to redesign a drone named Flippy that had recently broke. I was to design it in CAD so that the components could be CNCed from carbon fiber sheets, so that it would be more sturdy than the previous version which had been fully 3D-printed.
-
-It went through several iterations and I learned a lot about designing for assembly, since the first version I made wouldn't even have been able to be assembled if we had gone ahead and machined it. I also learned how to create tooling paths on Autodesk Fusion's Manufacturing software to be used for cutting the carbon fiber with the CNC machine. Currently, I have finished machining all parts, and the electrical components and motors are in the process of being assembled onto the drone. 
+I wrote a MatLab script that iteratively determines the ideal geometries for the design to meet safety factor requirements as closely as possible and avoid unnecessary over-engineering. I developed the new design for the wrench in CAD, and imported it into ANSYS to perform FEM on it. 
