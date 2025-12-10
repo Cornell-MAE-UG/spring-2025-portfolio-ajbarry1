@@ -3,13 +3,9 @@ layout: project
 title: Wrench Redesign
 description: Analysis and Redesign of Torque Wrench
 technologies: [CAD, ANSYS FEM]
-image: /assets/images/Drone_CAD.png
+image: /assets/images/wrench_1.png
 ---
-
-## 5.2 Your Design
-### 5.2.1 Results
-
-#### 1) CAD Model Images  
+#### 1) CAD Model 
 Below are the CAD model images showing all relevant geometry and dimensions:
 
 ![CAD Model 1](/assets/images/wrench_1.png)
@@ -26,17 +22,17 @@ The redesigned wrench uses **M42 Steel**, with the following mechanical properti
 - Fatigue Strength (10⁶ cycles): 115×10³ psi  
 - Fatigue exponent *b*: –0.138  
 
-#### 3) FEM Load & Boundary Condition Diagram
+#### 3) FEM Load & Boundary Conditions
 A load of **37.5 lbf in the +x direction** was applied at the handle tip.  
 The socket was set as a **fixed support** for the boundary condition.
 
 ![Load Diagram](/assets/images/wrench_4.png)
 ![Boundary Condition Diagram](/assets/images/wrench_5.png)
 
-#### 4) Normal Strain Contours (Strain-Gauge Direction)
+#### 4) Normal Strain Contours
 ![Normal Strain Contours](/assets/images/wrench_6.png)
 
-#### 5) Maximum Principal Stress Contour from FEM
+#### 5) Maximum Principal Stress Contour
 ![Max Principal Stress Contour](/assets/images/wrench_7.png)
 
 #### 6) Summary of FEM Results
@@ -49,7 +45,7 @@ The socket was set as a **fixed support** for the boundary condition.
 ![Normal Stress Contour](/assets/images/wrench_8.png)
 ![Load Point Deformation](/assets/images/wrench_9.png)
 
-#### 7) Torque Wrench Sensitivity (mV/V)
+#### 7) Strain Gauge Sensitivity (mV/V)
 Using the FEM-obtained strain and aligned strain-gauge orientation:
 The strain gauge is predicted to read a value of **0.499 mV/V** under the defined loading.
 ![Strain Probe Analysis](/assets/images/wrench_10.png)
