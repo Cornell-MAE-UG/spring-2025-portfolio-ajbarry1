@@ -12,10 +12,9 @@ I wrote a MatLab script that iteratively determines the ideal geometries for the
 
 #### 1) CAD Model 
 Below are the CAD model images showing all relevant geometry and dimensions:
-
-![CAD Model 1](/assets/images/wrench_1.png)
-![CAD Model 2](/assets/images/wrench_2.png)
-![CAD Model 3](/assets/images/wrench_3.png)
+![CAD Model 1]({{ "/assets/images/wrench_1.png" | relative_url }})
+![CAD Model 2]({{ "/assets/images/wrench_2.png" | relative_url }})
+![CAD Model 3]({{ "/assets/images/wrench_3.png" | relative_url }})
 
 #### 2) Material and Mechanical Properties
 The redesigned wrench uses **M42 Steel**, with the following mechanical properties:
@@ -31,14 +30,14 @@ The redesigned wrench uses **M42 Steel**, with the following mechanical properti
 A load of **37.5 lbf in the +x direction** was applied at the handle tip.  
 The socket was set as a **fixed support** for the boundary condition.
 
-![Load Diagram](/assets/images/wrench_4.png)
-![Boundary Condition Diagram](/assets/images/wrench_5.png)
+![Load Diagram]({{ "/assets/images/wrench_4.png" | relative_url }})
+![Boundary Condition Diagram]({{ "/assets/images/wrench_5.png" | relative_url }})
 
 #### 4) Normal Strain Contours
-![Normal Strain Contours](/assets/images/wrench_6.png)
+![Normal Strain Contours]({{ "/assets/images/wrench_6.png" | relative_url }})
 
 #### 5) Maximum Principal Stress Contour
-![Max Principal Stress Contour](/assets/images/wrench_7.png)
+![Max Principal Stress Contour]({{ "/assets/images/wrench_7.png" | relative_url }})
 
 #### 6) Summary of FEM Results
 - **Maximum normal stress:** 60.4 ksi  
@@ -47,13 +46,13 @@ The socket was set as a **fixed support** for the boundary condition.
 - **Load point deflection:** 0.171 in  
 - **Strain at gauge location:** –499 µε  
 
-![Normal Stress Contour](/assets/images/wrench_8.png)
-![Load Point Deformation](/assets/images/wrench_9.png)
+![Normal Stress Contour]({{ "/assets/images/wrench_8.png" | relative_url }})
+![Load Point Deformation]({{ "/assets/images/wrench_9.png" | relative_url }})
 
 #### 7) Strain Gauge Sensitivity (mV/V)
 Using the FEM-obtained strain and aligned strain-gauge orientation:
 The strain gauge is predicted to read a value of **0.499 mV/V** under the defined loading.
-![Strain Probe Analysis](/assets/images/wrench_10.png)
+![Strain Probe Analysis]({{ "/assets/images/wrench_10.png" | relative_url }})
 
 #### 8) Strain Gauge Selection
 The chosen gauge is the Precision Strain Gauge by Omega with a size of 4.7 mm (SGD-1.5/120-LY41). 
