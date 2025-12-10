@@ -6,7 +6,9 @@ layout: default
 
 <p><img src="{{ page.image | relative_url }}" alt="{{ page.imagealt }}" class="project-image" /></p>
 
-{{ content }}
+<div class="project-body">
+  {{ content }}
+</div>
 
 <p><strong>Technologies Used</strong>: {{ page.technologies | join: ", " }}</p>
 
