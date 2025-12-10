@@ -8,14 +8,11 @@ $color_scheme: '{{ site.color_scheme }}';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 @import "custom";
 
-.project-body {
-  max-width: 900px;   // choose: 700px, 800px, etc.
-  margin: 0 auto;     // center the content
-}
-
-.project-body img {
+/* Responsive images—ONLY inside project content, not the header image */
+.project-content img {
   width: 100%;
   height: auto;
+  max-width: 900px;
   display: block;
-  margin: 15px 0;
+  margin: 15px auto;
 }
