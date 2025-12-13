@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Knead For Speed" (Massager Dissection)
+title: Knead For Speed (Massager Dissection)
 description: System dynamics dissection of a massage gun
 technologies: [System Dynamics, Controls, Experimentation]
 image: /assets/images/Massager.png
