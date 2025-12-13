@@ -7,7 +7,7 @@ image: /assets/images/Massager.jpg
 ---
 
 ### "Knead For Speed"
-By Toby Huynh, Alexander Barry, Charles Valembrun, and Abha Bhole
+By Alexander Barry, Toby Huynh, Charles Valembrun, and Abha Bhole
 
 [View the full report (PDF)]({{ "/assets/3260 Dissection Report.pdf" | relative_url }})
 
