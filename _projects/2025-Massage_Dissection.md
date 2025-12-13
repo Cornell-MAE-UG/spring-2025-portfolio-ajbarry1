@@ -47,17 +47,21 @@ Figure 4: Diagram depicting the pulse width of signals for different values of d
 
 To most accurately determine when and how the switch from the low frequency mode occurs, we needed to determine when the duty cycle of the DC motor began to increase and how long the duty cycle took to stabilize. However, the resolution of the exported CSV file corresponding to Figure 3 was insufficient due to the high frequency rate of the motor voltage output compared to the time scale set on the oscilloscope. From the oscilloscope, we knew that the duty cycle transitions from 44% to 84%, but the time scale over which this happens was too small and the frequency of the square wave voltage output was too high. To fix this, we collected more data, this time with a smaller time scale on the oscilloscope so we could better characterize how the duty cycle changes during the quick transition. We focused only on the transition period and recorded the time when the duty cycle reached specified values, which we chose to be 2% increments starting from 44% duty cycle to 84% duty cycle. A graph of the % duty cycle vs time data plotted is shown below in Figure 5.
 
-![Figure 5]({{ "/assets/images/massage_figure5.png" | relative_url }})
+![Figure 5]({{ "/assets/images/massager_figure5.png" | relative_url }})
 
 Figure 5: Duty cycle vs time during the transition between “regular mode” and “fast mode.”
 
 We were surprised by the correlation the plot showed, wich looked more linear when we expected a relationship that looked more exponential.
 
-![Figure 6_1]({{ "/assets/images/massage_figure61.png" | relative_url }})
-![Figure 6_2]({{ "/assets/images/massage_figure62.png" | relative_url }})
-![Figure 6_3]({{ "/assets/images/massage_figure63.png" | relative_url }})
-![Figure 6_4]({{ "/assets/images/massage_figure64.png" | relative_url }})
-![Figure 6_5]({{ "/assets/images/massage_figure65.png" | relative_url }})
+![Figure 6_1]({{ "/assets/images/massager_figure61.png" | relative_url }})
+
+![Figure 6_2]({{ "/assets/images/massager_figure62.png" | relative_url }})
+
+![Figure 6_3]({{ "/assets/images/massager_figure63.png" | relative_url }})
+
+![Figure 6_4]({{ "/assets/images/massager_figure64.png" | relative_url }})
+
+![Figure 6_5]({{ "/assets/images/massager_figure65.png" | relative_url }})
 
 
 Figure 6: Oscilloscope snapshots every 10% increase in duty cycle during the transition period (From 44% to 84% Duty Cycle)
@@ -81,7 +85,7 @@ The fast mode operates at approximately 3 times the frequency of the slow mode. 
 
 ### Block Diagram
 
-![Figure 7]({{ "/assets/images/massage_figure7.png" | relative_url }})
+![Figure 7]({{ "/assets/images/massager_figure7.png" | relative_url }})
 
 Figure 7: Proposed block diagram for our massage gun system.
 
