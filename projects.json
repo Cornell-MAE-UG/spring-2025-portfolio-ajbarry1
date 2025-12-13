@@ -33,6 +33,13 @@
         "skills": ["CAD","ANSYS FEM"],
         "outcome": "Details of the analysis of an improved torque wrench.",
         "link": "#",
-        "cadModel": "models/fan_assembly.glb"
+    }
+    {
+        "title": "Massager Dissection",
+        "image": "images/massager.jpg",
+        "description": "Dissection and Analysis of Hand-held Massager.",
+        "skills": ["Oscilloscope", "Measurement Equipment", "Excel"],
+        "outcome": "Details of the analysis of a hand-held massager.",
+        "link": "#",
     }
 ]
