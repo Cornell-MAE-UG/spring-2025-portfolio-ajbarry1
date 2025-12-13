@@ -1,13 +1,12 @@
 ---
 layout: project
-title: Knead For Speed (Massager Dissection)
+title: Massager Dissection
 description: System dynamics dissection of a massage gun
 technologies: [System Dynamics, Controls, Experimentation]
 image: /assets/images/Massager.png
 ---
 
-### Knead For Speed – Massager Dissection
-
+### "Knead For Speed"
 By Toby Huynh, Alexander Barry, Charles Valembrun, and Abha Bhole
 
 ---
