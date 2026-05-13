@@ -3,7 +3,7 @@ layout: project
 title: Mechatronics Robot Project
 description: Mechatronics Robot Project
 technologies: [Mechatronics, Arduino, Circuit Wiring, CAD]
-image: /assets/images/mechatronics-robot.jpg
+image: /assets/images/mechatronics-robot.png
 ---
 
 As a final project for Mechatronics, my team designed and built an autonomous robot for a competitive robotics tournament. The objective was to collect and control more cubes than the opposing robot within a timed match. Our robot performed extremely well throughout the competition and made it into the final single-elimination bracket.
